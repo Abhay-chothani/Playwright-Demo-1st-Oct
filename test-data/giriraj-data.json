@@ -1,0 +1,205 @@
+{
+  "site": {
+    "baseUrl": "https://www.girirajdigital.com",
+    "name": "GIRIRAJ DIGITAL",
+    "expectedTitleContains": "GIRIRAJ DIGITAL",
+    "heroHeading": "AI Powered Enterprise Development",
+    "copyright": "Copyright @ 2026 GIRIRAJ DIGITAL"
+  },
+  "routes": {
+    "home": "/",
+    "companyOverview": "/about/company-overview/",
+    "leadershipTeam": "/about/leadership-team/",
+    "awardsCertifications": "/about/awards-certifications/",
+    "csr": "/about/csr/",
+    "about": "/about/",
+    "productEngineering": "/services/product-engineering/",
+    "qaServices": "/services/quality-assurance/",
+    "caseStudies": "/case-study/",
+    "blogs": "/blogs/",
+    "career": "/about/career/",
+    "contactUs": "/contact-us/"
+  },
+  "navigation": {
+    "mainMenus": [
+      "Home",
+      "Who we are",
+      "What we do",
+      "Resources",
+      "Career"
+    ],
+    "whoWeAreSubmenu": [
+      "Company Overview",
+      "Leadership Team",
+      "Awards Certifications",
+      "CSR"
+    ],
+    "whatWeDoSubmenu": [
+      "About",
+      "Industries Served",
+      "Services",
+      "Technology Partnership"
+    ],
+    "resourcesSubmenu": [
+      "Case Study",
+      "Blogs",
+      "Business Events"
+    ]
+  },
+  "contactForm": {
+    "expectedValidation": {
+      "firstNameRequired": "Please enter your first name",
+      "emailRequired": "Please enter your email address",
+      "descriptionRequired": "Please enter description",
+      "invalidEmailRegex": "Please enter valid email address ",
+      "phoneRegex": "Please enter correct phone number"
+    },
+    "fieldAttributes": {
+      "maxLength": "255",
+      "emailType": "email",
+      "phoneType": "number"
+    },
+    "validDummyData": {
+      "firstName": "TestUser",
+      "lastName": "Automation",
+      "email": "testautomation@example.com",
+      "phone": "9876543210",
+      "description": "Automated regression testing verification - do not process."
+    },
+    "invalidData": {
+      "invalidEmail": "not-an-email"
+    }
+  },
+  "uiContent": {
+    "officeLocations": [
+      {
+        "country": "DENMARK",
+        "address": "Amagerfælledvej 108, 2300 København Denmark"
+      },
+      {
+        "country": "AHMEDABAD",
+        "address": "B-1020, Navratna Corporate Park, Ambli, Ahmedabad - 380058, India"
+      },
+      {
+        "country": "USA",
+        "address": "200 Union Blvd. Suite 200, Lakewood, Colorado - 80228 USA"
+      }
+    ],
+    "certifications": [
+      "umbraco Gold Partner",
+      "Azure certified team",
+      "google review giriraj digital",
+      "Best Company Clutch Giriraj Digital"
+    ],
+    "faqSectionTitle": "Frequently Asked Questions",
+    "faqQuestions": [
+      "What is Umbraco, and can you help with the Umbraco development?",
+      "How can I get started with Giriraj Digital's services?",
+      "How can Giriraj Digital assist with compliance and data security of my confidential data?",
+      "Can Giriraj Digital help us migrate our on-premises infrastructure to Microsoft Azure Cloud?",
+      "Can Giriraj Digital help migrate our legacy applications to modern Microsoft technologies like .NET Core or .NET 5?"
+    ],
+    "socialMediaPlatforms": [
+      "Facebook",
+      "LinkedIn",
+      "Twitter",
+      "Instagram"
+    ]
+  },
+  "qaFaq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "sectionSubtitle": "Your Curiosities, Our Clarity",
+    "items": [
+      {
+        "id": 1,
+        "question": "As a renowned Software Quality Assurance Company, what's your approach to Software Quality Assurance Services?",
+        "expectedAnswerSnippet": "Our sole goal is to exceed client expectations by providing world-class quality assurance and testing services.",
+        "expectedKeywords": [
+          "exceed client expectations",
+          "quality assurance and testing services",
+          "planning stage",
+          "finances and timelines"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "What exactly is 'good code'?",
+        "expectedAnswerSnippet": "Code that works properly, bug-free, secure, legible, and maintained is considered \"good code.\"",
+        "expectedKeywords": [
+          "works properly, bug-free, secure, legible",
+          "peer reviews",
+          "buddy checking",
+          "pair programming"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "How do you ensure that excellent software is tested at the developer level?",
+        "expectedAnswerSnippet": "Our programmers test their code as they write it to verify that it functions properly. Unit tests, in our opinion, should be a component of 'core' engineering and development.",
+        "expectedKeywords": [
+          "programmers test their code",
+          "Unit tests",
+          "core' engineering",
+          "stacking cards"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "What is the difference between Quality Assurance (QA) and testing?",
+        "expectedAnswerSnippet": "Businesses sometimes confuse Quality Assurance with Software Testing since both methodologies strive for the same goal: a bug-free and functioning program.",
+        "expectedKeywords": [
+          "Quality Assurance with Software Testing",
+          "preventing software defects",
+          "identifying software flaws"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Why choose Giriraj Digital for software testing services?",
+        "expectedAnswerSnippet": "Giriraj Digital is a major provider of software testing services for a wide variety of companies and sectors.",
+        "expectedKeywords": [
+          "major provider of software testing services",
+          "business cycle and performance",
+          "lowering the overall cost"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "What are the benefits of test automation?",
+        "expectedAnswerSnippet": "Following are some of the benefits of test automation -",
+        "expectedKeywords": [
+          "Automation Tools That Are Easy To Use",
+          "Concept Testing And Business-Driven Development",
+          "Test-Driven Development (Tdd)",
+          "Trend Analysis And Advanced Reporting"
+        ]
+      }
+    ]
+  },
+  "blogs": {
+    "route": "/blogs/",
+    "expectedTabs": [
+      "All",
+      "Umbraco",
+      ".NET",
+      "CMS",
+      "Headless",
+      "Vue JS",
+      "React JS",
+      "Node JS",
+      "ECommerce",
+      "IT"
+    ],
+    "requestedCategories": [
+      "All",
+      "Umbraco",
+      ".NET CMS",
+      "Headless",
+      "Vue JS",
+      "React JS",
+      "Node JS",
+      "ECommerce",
+      "IT"
+    ]
+  }
+}

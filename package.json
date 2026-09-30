@@ -1,0 +1,25 @@
+{
+  "name": "playwright-pom-framework",
+  "version": "1.0.0",
+  "description": "Professional Playwright Automation Framework using JavaScript and Page Object Model (POM)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "javascript",
+    "page-object-model",
+    "pom"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
