@@ -13,6 +13,7 @@ test.describe('Giriraj Digital - Blog Tab Wrapper Section Automation', () => {
   test('TC01 - Verify blog-tab-wrapper section is visible on /blogs/ page', async ({ gdBlogsPage }) => {
     // Verify blog-tab-wrapper container exists and is visible
     await expect(gdBlogsPage.blogTabWrapper).toBeVisible();
+    
   });
 
   test('TC02 - Verify total count of blog filter tabs', async ({ gdBlogsPage }) => {
